@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/white"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Movie Id"/>
+        <EditText android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Name"/>
+        <EditText android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Language"/>
+        <EditText android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Year"/>
+        <EditText android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Category"/>
+        <EditText android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Duration"/>
+        <EditText android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="IMDB Rating"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Submit"
+            android:layout_marginTop="15dp"
+            android:backgroundTint="@color/green"
+            android:textColor="@color/white"/>
+
+    </LinearLayout>
+</ScrollView>
